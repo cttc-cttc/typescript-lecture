@@ -228,7 +228,6 @@ const main4 = async () => {
 // TODO: 그리고 정의된 Todo의 title 값을 비교해서 velit soluta adipisci molestias reiciendis harum 와 title이 일치하는 Todo의 id 값을 찾습니다.
 
 interface Todo {
-  // TODO: API 응답 결과를 확인하여 타입 작성해보기
   userId: number;
   id: number;
   title: string;
