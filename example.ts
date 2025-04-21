@@ -206,10 +206,10 @@ const saveUser = async (user: User) => {
 
 const main4 = async () => {
   const users: User[] = [
-    { id: 5, name: 'user5', age: 20, isAdmin: false },
-    // { id: 2, name: 'user2', age: 30, isAdmin: true },
-    // { id: 3, name: 'user3', age: 40, isAdmin: false },
-    // { id: 4, name: 'user4', age: 50, isAdmin: false },
+    { id: 1, name: 'user1', age: 20, isAdmin: false },
+    { id: 2, name: 'user2', age: 30, isAdmin: true },
+    { id: 3, name: 'user3', age: 40, isAdmin: false },
+    { id: 4, name: 'user4', age: 50, isAdmin: false },
   ];
 
   for (let i = 0; i < users.length; i++) {
