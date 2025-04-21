@@ -1,0 +1,23 @@
+TypeScript
+
+자바스크립트에 정적 타입을 추가한 언어
+코드를 실행하지 않아도 타입 오류를 발견할 수 있음
+TS는 JS로 변환되어 실행됨(transpile 개념)
+
+설치 :: npm i -D typescript
+
+이후 tsconfig.json 파일을 생성해서 설정내용 작성
+
+package.json의 script
+"build": "tsc index.ts", -> index.ts 파일을 실행하기 전 컴파일하겠다는 뜻
+
+매번 빌드, 실행하는 과정을 거치면 너무 번거롭기 때문에 패키지를 더 추가
+설치 :: npm i -D tsx
+
+package.json의 script
+"dev": "tsx index.ts", -> 바로 ts를 실행
+
+eslint 설정에 typescript의 내용도 추가 (.eslintrc.cjs)
+.vscode/settings.json에도 추가
+추가되는 내용은 다음 링크를 참조
+https://balsam-consonant-050.notion.site/ESLint-1d849bc88ee7802c83e4ec40f82917bf
